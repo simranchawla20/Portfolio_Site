@@ -1,0 +1,13 @@
+.created-container{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.created-by{
+    color:rgb(1, 1, 53);
+}
+.heart{
+    color: red;
+}

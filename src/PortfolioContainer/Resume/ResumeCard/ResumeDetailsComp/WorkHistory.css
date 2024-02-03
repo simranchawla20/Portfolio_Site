@@ -1,0 +1,93 @@
+.work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 70px 0 0;  */
+    height: 55vh;
+}
+.work-parent{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 15px;
+}
+.head-rw{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+.orange{
+    color: var(--dark-orange);
+    font-size: 15px;
+}
+.desc-rw{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.desc-highlight{
+    font-weight: bold;
+    font-size: 15px;
+}
+.desc-curr, .desc-points{
+    font-size: 15px;
+}
+.desc-points{
+    margin-left: 13px;
+}
+i{
+    margin-right: 10px;
+}
+.blck-bullet{
+    font-size: 5px;
+}
+@media screen and (max-width: 1110px){
+    .work-container {
+        height: 56vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .edu-year {
+        width: 144px;
+    }
+    .work-container {
+        height: 63vh;
+    }
+}
+@media screen and (max-width: 710px){
+    .work-container {
+        height: 68vh;
+    }
+}
+@media screen and (max-width: 510px){
+    .orange {
+        font-size: 14px;
+    }
+    .head-rw {
+        gap: 12px;
+    }
+    .desc-curr, .desc-points {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 375px){
+    .orange {
+        font-size: 11px;
+    }
+    .desc-points {
+        font-size: 9px;
+    }
+    .edu-year {
+        font-size: 6px !important;
+        height: 23px !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .work-container {
+        height: 78vh;
+    }
+}

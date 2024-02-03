@@ -1,0 +1,8 @@
+.bar{
+    margin-left: 20px;
+}
+@media screen and (max-width: 375px){
+    .precentage{
+        font-size: 11px !important;
+    }
+}

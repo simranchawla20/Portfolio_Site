@@ -1,0 +1,138 @@
+.proj-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 70px 0 0;  */
+    height: 55vh;
+}
+.proj-parent{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 15px;
+}
+
+.proj-head-rw1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+}
+.proj-head-rw2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 310px;
+}
+.proj-head-rw3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+}
+
+.orange{
+    color: var(--dark-orange);
+    font-size: 15px;
+}
+.desc-rw{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+}
+.desc-highlight{
+    font-weight: bold;
+    font-size: 15px;
+}
+.desc-curr{
+    font-size: 15px;
+}
+i{
+    margin-right: 10px;
+}
+@media screen and (max-width: 1110px){
+    .proj-container {
+        height: 56vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .proj-container {
+        height: 63vh;
+    }
+    .proj-head-rw1 {
+        gap: 60px;
+    }
+    .proj-head-rw2 {
+        gap: 92px;
+    }
+    .proj-head-rw3 {
+        gap: 100px;
+    }
+
+}
+@media screen and (max-width: 710px){
+    .proj-container {
+        height: 68vh;
+    }
+    .desc-highlight {
+        font-size: 13px;
+    }
+    .desc-curr {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 510px){
+    .desc-highlight {
+        font-size: 11px;
+    }
+    .desc-curr {
+        font-size: 11px;
+    }
+    .proj-head-rw2 {
+        gap: 88px;
+    }
+    .proj-head-rw3 {
+        gap: 94px;
+    }
+    .orange {
+        font-size: 13px;
+    }
+    .edu-year {
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 375px){
+    .proj-head-rw1 {
+        gap: 24px;
+    }
+    .proj-head-rw2 {
+        gap: 37px;
+    }
+    .proj-head-rw3 {
+        gap: 20px;
+    }
+    .desc-highlight {
+        font-size: 9px;
+    }
+    .desc-curr {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 400px){
+    .proj-container {
+        height: 78vh;
+    }
+    .desc-highlight {
+        font-size: 9px;
+    }
+    .desc-curr {
+        font-size: 9px;
+    }
+    .edu-year {
+        width: fit-content;
+        height: fit-content;
+    }
+}
